@@ -1,0 +1,1070 @@
+/* font-family: 'Comfortaa', cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Nawigacja, menu */
+
+nav {
+    background-color: black;
+    height: 10vh;
+    min-height: 30px;
+    max-height: 50px;
+}
+
+nav ul {
+    width: 100%;
+    float: left;
+    list-style: none;
+    padding-top: 10px;
+}
+
+nav li {
+    float: left;
+    width: 12%;
+}
+
+nav a {
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    line-height: 40px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    font-size: 25px;
+}
+
+#index #menu .page1 {
+    color: orange;
+}
+
+#application #menu .page2 {
+    color: orange;
+}
+
+#syllabus #menu .page3 {
+    color: orange;
+}
+
+#manual #menu .page4 {
+    color: orange;
+}
+
+#faq #menu .page5 {
+    color: orange;
+}
+
+#gallery #menu .page6 {
+    color: orange;
+}
+
+#about #menu .page7 {
+    color: orange;
+}
+
+#contact #menu .page8 {
+    color: orange;
+}
+
+/* header */
+
+header {
+    position: relative;
+    width: 100%;
+    height: 20vw;
+    min-height: 80px;
+    background-color: black;
+    background-image: url('../image/logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+}
+
+header div .loga {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 3%;
+    color: black;
+    font-size: 0;
+    background-color: black;
+}
+
+header div a img {
+    width: 8vw;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+header div a img:hover {
+    background-color: rgb(55, 55, 55);
+    border: 1px solid gray;
+}
+
+/* Main */
+
+main {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+main section.line {
+    border-bottom: 1px solid orange;
+}
+
+main div img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+main h2 {
+    color: orange;
+    font-size: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+main h3 {
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+main div.ramka {
+    width: 60%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: orange;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 140%;
+    border-radius: 15px;
+}
+
+main div.eramka {
+    width: 60%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px dotted orange;
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+    text-align: center;
+    line-height: 140%;
+    border-radius: 15px;
+}
+
+main p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 160%;
+    margin-bottom: 10px;
+}
+
+main p.last {
+    margin-bottom: 20px;
+}
+
+main p.center {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main p.przypis {
+    margin-top: 20px;
+    text-align: center;
+}
+
+main span.notinclude {
+    text-decoration: underline;
+}
+
+main span.workshop {
+    color: orange;
+    font-weight: bold;
+}
+
+main a {
+    color: orange;
+    text-decoration: underline;
+}
+
+main a.awhite {
+    color: white;
+}
+
+main div.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+main a.button {
+    display: block;
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 20px 120px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+main a.button:hover {
+    background-color: orangered;
+}
+
+.lpicture-ramka img {
+    float: left;
+    width: 25%;
+    margin-right: 25px;
+    border-radius: 15px;
+}
+
+main div.contact {
+    margin-top: 20px;
+}
+
+.geo-ramka img {
+    float: right;
+    width: 60%;
+    margin-right: 25px;
+    border-radius: 15px;
+}
+
+.r-ramka img {
+    float: right;
+    width: 35%;
+    margin-right: 15px;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+
+.rpicture-ramka {
+    color: white;
+    background-color: orange;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding-top: 10px;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+.rpicture-ramka h3 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+}
+
+.rpicture-ramka ol {
+    margin-left: 60px;
+}
+
+.rpicture-ramka li {
+    margin-left: 40px;
+}
+
+.rpicture-ramka img {
+    float: right;
+    width: 25%;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+
+main div.gallery {
+    margin-top: 30px;
+}
+
+main div.gallery img {
+    width: 30%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+main div.gallery img:hover {
+    opacity: 0.6;
+}
+
+footer {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: black;
+    font-family: 'Comfortaa', sans-serif;
+    color: white;
+}
+
+footer .useful {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+footer .info {
+    float: left;
+    padding-right: 20%;
+    width: 45%;
+}
+
+footer .contact {
+    float: left;
+}
+
+footer h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+footer h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style: none;
+    line-height: 180%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    font-size: 18px;
+}
+
+p.copyright {
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+
+/* Lumia 520 320 x 533 */
+
+@media (orientation: portrait) and (min-width: 320px) {
+    nav li {
+        float: left;
+        width: 25%;
+    }
+
+    nav a {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    nav a:hover {
+        font-size: 12px;
+    }
+
+    main h2 {
+        font-size: 22px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    main h3 {
+        font-size: 18px;
+    }
+
+    main div.ramka {
+        width: 80%;
+        font-size: 12px;
+        border-radius: 15px;
+    }
+
+    main div.eramka {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .rpicture-ramka {
+        font-size: 12px;
+    }
+    
+    .rpicture-ramka h3 {
+        font-size: 16px;
+    }
+    
+    .rpicture-ramka img {
+        float: right;
+        width: 25%;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-left: 25px;
+        border-radius: 15px;
+    }
+
+    .rpicture-ramka ol {
+        margin-left: 30px;
+    }
+
+    .rpicture-ramka li {
+        margin-left: 15px;
+    }
+    
+    .geo-ramka img {
+        width: 50%;    
+    }
+
+    main p {
+        font-size: 10px;
+        line-height: 160%;
+    }
+
+    main p.center {
+        font-size: 14px;
+    }
+
+    main div.center {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    main a.button {
+        padding: 10px 40px;
+        font-size: 14px;
+    }
+
+    main div.gallery img {
+        width: 85%;
+    }
+
+    main p.center img.users {
+        width: 75%;
+    }
+
+    footer {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    footer .useful {
+        display: block;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    footer .info {
+        padding-right: 10%;
+        width: 80%;
+    }
+
+    footer .contact {
+        float: left;
+    }
+
+    footer h2 {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    footer h3 {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    footer ul {
+        line-height: 110%;
+    }
+
+    footer a {
+        font-size: 10px;
+    }
+
+    footer a:hover {
+        font-size: 12px;
+    }
+}
+
+/* Pixel 2: 411x731 */
+
+@media (orientation: portrait) and (min-width: 400px) {
+    nav li {
+        float: left;
+        width: 25%;
+    }
+
+    nav a {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    nav a:hover {
+        font-size: 14px;
+    }
+
+    main h2 {
+        font-size: 22px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    main h3 {
+        font-size: 18px;
+    }
+
+    main div.ramka {
+        width: 80%;
+        font-size: 16px;
+        border-radius: 15px;
+    }
+
+    main div.eramka {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .rpicture-ramka {
+        font-size: 16px;
+    }
+
+    .rpicture-ramka ol {
+        margin-left: 40px;
+    }
+
+    .rpicture-ramka li {
+        margin-left: 20px;
+    }
+    
+    .geo-ramka img {
+        width: 50%;    
+    }
+
+    main p {
+        font-size: 12px;
+        line-height: 160%;
+    }
+
+    main p.center {
+        font-size: 16px;
+    }
+
+    main div.center {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    main a.button {
+        padding: 10px 40px;
+        font-size: 14px;
+    }
+
+    main div.gallery img {
+        width: 85%;
+    }
+
+    main p.center img.users {
+        width: 75%;
+    }
+
+    footer {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    footer .useful {
+        display: block;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    footer .info {
+        padding-right: 10%;
+        width: 80%;
+    }
+
+    footer .contact {
+        float: left;
+    }
+
+    footer h2 {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    footer h3 {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    footer ul {
+        line-height: 110%;
+    }
+
+    footer a {
+        font-size: 10px;
+    }
+
+    footer a:hover {
+        font-size: 12px;
+    }    
+}
+
+/* iPad:  */
+
+@media (orientation: landscape) and (min-width: 732px) and (max-width: 1024px) {
+    body {
+        width: 85%;
+    }
+
+    nav {
+        background-color: black;
+        height: 60px;
+        max-height: 60px;
+    }
+
+    nav li {
+        float: left;
+        width: 20%;
+    }
+
+    nav a {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    nav a:hover {
+        font-size: 20px;
+    }
+
+    main h2 {
+        font-size: 28px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    main h3 {
+        font-size: 24px;
+    }
+
+    main p {
+        font-size: 14px;
+        line-height: 160%;
+    }
+
+    main p.center {
+        font-size: 16px;
+    }
+
+    .rpicture-ramka {
+        font-size: 20px;
+    }
+
+    .rpicture-ramka ol {
+        margin-left: 50px;
+    }
+
+    .rpicture-ramka li {
+        margin-left: 30px;
+    }
+    
+    .geo-ramka img {
+        width: 50%;    
+    }
+
+    main div.center {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    main a.button {
+        padding: 10px 40px;
+        font-size: 18px;
+    }
+
+    main div.gallery img {
+        width: 44%;
+    }
+
+    main p.center img.users {
+        width: 75%;
+    }
+
+    footer {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    footer .useful {
+        display: flex;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    footer .info {
+        padding-right: 10%;
+        width: 45%;
+    }
+
+    footer .contact {
+        float: left;
+    }
+
+    footer h2 {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    footer h3 {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    footer ul {
+        line-height: 110%;
+    }
+
+    footer a {
+        font-size: 10px;
+    }
+
+    footer a:hover {
+        font-size: 12px;
+    }
+}
+
+/* Pixel:  */
+
+@media (orientation: landscape) and (max-width: 731px) {
+    body {
+        width: 85%;
+    }
+
+    nav {
+        background-color: black;
+        height: 60px;
+        max-height: 60px;
+    }
+
+    nav li {
+        float: left;
+        width: 25%;
+    }
+
+    nav a {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    nav a:hover {
+        font-size: 16px;
+    }
+
+    main h2 {
+        font-size: 22px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    main h3 {
+        font-size: 18px;
+    }
+
+    main div.ramka {
+        width: 80%;
+        font-size: 16px;
+        border-radius: 15px;
+    }
+
+    main div.eramka {
+        width: 80%;
+        font-size: 14px;
+    }
+    
+
+    .rpicture-ramka {
+        font-size: 14px;
+    }
+    
+    .rpicture-ramka h3 {
+        font-size: 18px;
+    }
+
+    .rpicture-ramka ol {
+        margin-left: 40px;
+    }
+
+    .rpicture-ramka li {
+        margin-left: 20px;
+    }
+    
+    .geo-ramka img {
+        width: 50%;    
+    }
+
+    main p {
+        font-size: 12px;
+        line-height: 160%;
+    }
+
+    main p.center {
+        font-size: 16px;
+    }
+
+    main div.center {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    main a.button {
+        padding: 10px 40px;
+        font-size: 14px;
+    }
+
+    main div.gallery img {
+        width: 44%;
+    }
+
+    main p.center img.users {
+        width: 75%;
+    }
+
+    footer {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    footer .useful {
+        display: flex;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    footer .info {
+        padding-right: 10%;
+        width: 45%;
+    }
+
+    footer .contact {
+        float: left;
+    }
+
+    footer h2 {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    footer h3 {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    footer ul {
+        line-height: 110%;
+    }
+
+    footer a {
+        font-size: 10px;
+    }
+
+    footer a:hover {
+        font-size: 12px;
+    }
+}
+
+/* Lumia 520:  533 x 320 */
+
+@media (orientation: landscape) and (max-width: 533px) {
+    nav {
+        background-color: black;
+        height: 60px;
+        max-height: 60px;
+    }
+
+    nav li {
+        float: left;
+        width: 25%;
+    }
+
+    nav a {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    nav a:hover {
+        font-size: 16px;
+    }
+
+    main h2 {
+        font-size: 22px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    main h3 {
+        font-size: 20px;
+    }
+
+    main div.ramka {
+        width: 80%;
+        font-size: 16px;
+        border-radius: 15px;
+    }
+
+    main div.eramka {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .rpicture-ramka {
+        font-size: 16px;
+    }
+
+    .rpicture-ramka ol {
+        margin-left: 40px;
+    }
+
+    .rpicture-ramka li {
+        margin-left: 20px;
+    }
+    
+    .geo-ramka img {
+        width: 50%;    
+    }
+
+    main p {
+        font-size: 10px;
+        line-height: 160%;
+    }
+
+    main p.center {
+        font-size: 14px;
+    }
+
+    main div.center {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    main a.button {
+        padding: 10px 40px;
+        font-size: 14px;
+    }
+
+    main div.gallery img {
+        width: 44%;
+    }
+
+    main p.center img.users {
+        width: 75%;
+    }
+
+    footer {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    footer .useful {
+        display: flex;
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    footer .info {
+        padding-right: 10%;
+        width: 45%;
+    }
+
+    footer .contact {
+        float: left;
+    }
+
+    footer h2 {
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    footer h3 {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    footer ul {
+        line-height: 110%;
+    }
+
+    footer a {
+        font-size: 10px;
+    }
+
+    footer a:hover {
+        font-size: 12px;
+    }
+}
