@@ -1,0 +1,4 @@
+# ignorowanie galerii zdjec 
+
+image/gallery/2018/*.*
+image/gallery/2019/*.*
